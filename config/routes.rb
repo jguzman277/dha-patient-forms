@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   get 'pages/patientforms'
-
-  devise_for :users
   get 'pages/contact'
+  devise_for :users
+ 
   
   root 'pages#patientforms'
 
