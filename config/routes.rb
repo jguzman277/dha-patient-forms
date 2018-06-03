@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :user_types
   get 'pages/patientforms'
   get 'pages/contact'
   devise_for :users
